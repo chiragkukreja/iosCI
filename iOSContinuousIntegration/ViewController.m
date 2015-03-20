@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
   // Do any additional setup after loading the view, typically from a nib.
+  NSString * str = @"chg";
+  NSString * str1 = [str stringByAppendingString:@"kkj"];
+  NSLog(@"final string is %@",str1);
+  
 }
 
 - (void)didReceiveMemoryWarning {
