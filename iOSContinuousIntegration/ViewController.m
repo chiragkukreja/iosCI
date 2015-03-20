@@ -20,7 +20,7 @@
   NSString * str = @"chg";
   NSString * str1 = [str stringByAppendingString:@"kkj"];
   NSLog(@"final string is %@",str1);
-  
+  NSLog(@"hello to jenkin");
 }
 
 - (void)didReceiveMemoryWarning {
