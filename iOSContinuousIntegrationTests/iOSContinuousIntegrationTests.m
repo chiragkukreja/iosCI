@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import "ViewController.h"
 
 @interface iOSContinuousIntegrationTests : XCTestCase
 
@@ -35,6 +36,11 @@
     [self measureBlock:^{
         // Put the code you want to measure the time of here.
     }];
+}
+-(void)testName{
+  ViewController *vc = [[ViewController alloc]init];
+  NSString * str = [vc getname];
+  XCTAssertEqualObjects(@"chirag", str);
 }
 
 @end

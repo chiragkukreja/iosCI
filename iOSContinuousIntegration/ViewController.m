@@ -21,6 +21,8 @@
   NSString * str1 = [str stringByAppendingString:@"kkj"];
   NSLog(@"final string is %@",str1);
   NSLog(@"hello to jenkin");
+  NSLog(@"aish karo");
+  [self getname];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -28,4 +30,7 @@
   // Dispose of any resources that can be recreated.
 }
 
+-(NSString*)getname{
+  return @"chirag";
+}
 @end
