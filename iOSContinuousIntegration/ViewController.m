@@ -22,7 +22,7 @@
   NSLog(@"final string is %@",str1);
   NSLog(@"hello to jenkin");
   NSLog(@"aish karo");
-  [self getname];
+  NSLog(@"name ids %@",[self getname]);
 }
 
 - (void)didReceiveMemoryWarning {
